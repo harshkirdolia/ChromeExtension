@@ -1,0 +1,18 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "typescript.tsdk": "./node_modules/typescript/lib",
+    "typescript.preferences.importModuleSpecifier": "relative",
+    "tailwindCSS.includeLanguages": {
+      "plaintext": "html",
+      "css": "css"
+    },
+    "editor.quickSuggestions": {
+      "strings": true
+    }
+  }
+}
