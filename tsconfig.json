@@ -1,15 +1,16 @@
 {
-  "files": [],
-  "references": [
-    { "path": "./tsconfig.app.json" }
-  ],
-  "compilerOptions": {
-    "types": ["node"],
-    "moduleResolution": "bundler",
-    "allowImportingTsExtensions": true,
-    "resolveJsonModule": true,
-    "isolatedModules": true,
-    "noEmit": true,
-    "jsx": "react-jsx"
+    "files": [],
+    "references": [
+      { "path": "./tsconfig.app.json" }
+    ],
+    "compilerOptions": {
+      "types": ["node"],
+      "moduleResolution": "bundler",
+      "module": "es2015",
+      "allowImportingTsExtensions": true,
+      "resolveJsonModule": true,
+      "isolatedModules": true,
+      "noEmit": true,
+      "jsx": "react-jsx"
+    }
   }
-}
